@@ -150,3 +150,15 @@ header{ position:sticky; top:0; z-index:1200; background:rgba(255,255,255,.92); 
 .sticky-price b{ color:var(--sale); font-size:16px; font-weight:950; }
 .sticky-price s{ display:block; font-size:12px; color:#8b8b8b; }
 .mini-cta{ border:none; border-radius:14px; padding:12px 14px; background:linear-gradient(180deg,#2AE070,#1FB85A); color:#fff; font-weight:950; cursor:pointer; }
+.video-proof{ margin:14px 0; border:1px solid var(--line); border-radius:18px; padding:14px; background:#fff; }
+.vp-head{ margin-bottom:10px; }
+.vp-title{ font-weight:950; font-size:14px; }
+.vp-sub{ color:var(--muted); font-size:12px; margin-top:4px; }
+.vp-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
+@media(max-width:680px){ .vp-grid{ grid-template-columns:1fr; } }
+.vp-item{ position:relative; border-radius:16px; overflow:hidden; border:1px solid var(--line); background:#000; }
+.vp-item video{ width:100%; height:100%; display:block; object-fit:cover; aspect-ratio:16/10; }
+.vp-badge{ position:absolute; left:10px; top:10px; background:rgba(255,255,255,.92); border:1px solid rgba(0,0,0,.08); color:#111; font-weight:900; font-size:11px; padding:6px 10px; border-radius:999px; }
+.vp-controls{ display:flex; gap:10px; justify-content:center; margin-top:10px; }
+.vp-btn{ border:1px solid var(--line); background:#fff; border-radius:12px; padding:10px 12px; font-weight:900; cursor:pointer; }
+
